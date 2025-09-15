@@ -15,7 +15,7 @@ public class Ex2ImparParPosNeg{
 			System.out.println("Digite um número");
 			numero = leia.nextInt();
 			
-			// utilizando if-else para verificar se A + B é maior,menor ou igual a c
+			// utilizando if-else para verificar impar/par e positivo/negativo
 			if (numero%2==0 && 0<numero) {
 				System.out.println(numero + " é par e positivo");
 			} else if (numero%2==0 && 0>numero) {

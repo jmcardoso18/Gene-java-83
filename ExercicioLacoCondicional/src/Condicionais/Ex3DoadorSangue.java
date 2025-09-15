@@ -21,8 +21,7 @@ public class Ex3DoadorSangue {
 			idade = leia.nextInt();
 			System.out.println("É a primeira doação de sangue? (true/false)");
 			doa = leia.nextBoolean();
-
-			// utilizando if-else para verificar se A + B é maior,menor ou igual a c
+			// utilizando if-else para verificar idade ese já doou sangue
 			if (idade >= 18 && idade <= 69) {// Verifica se possui a idade necessária 
 				if(60<=idade && idade<=69 && doa==true) {
 					System.out.println(nome + " não está apto a doar sangue, pois tem mais de 60 e nunca doou sangue.");
