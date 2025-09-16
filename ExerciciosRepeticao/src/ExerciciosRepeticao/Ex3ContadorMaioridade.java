@@ -12,7 +12,11 @@ public class Ex3ContadorMaioridade {
 		boolean contador = true;
 		//usando o while para solicitar a entrada de dados enquanto não entrar um número negativo
 		while(contador) {
-			System.out.println("Digite sua idade");
+			System.out.println("Digite a idade (Digite um número negativo para sair)");
+			while (!sc.hasNextInt()) {
+	            System.out.println("Valor inválido! Digite uma idade válida:");
+	            sc.next(); // descarta a entrada inválida
+	        }
 			idade=sc.nextInt();
 			//if para verificar se idade é negativa
 			if(idade<0)
