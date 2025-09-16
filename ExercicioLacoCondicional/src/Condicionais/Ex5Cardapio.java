@@ -55,7 +55,7 @@ public class Ex5Cardapio {
 			break;
 		}case 6: {
 			valorTotal=13*qtde;
-			System.out.printf("Produto:Suco de laranja \nValor total: R$ %.2f%n",produto,valorTotal);
+			System.out.printf("Produto:Suco de laranja \nValor total: R$ %.2f%n",valorTotal);
 			break;
 		}		
 		default:
