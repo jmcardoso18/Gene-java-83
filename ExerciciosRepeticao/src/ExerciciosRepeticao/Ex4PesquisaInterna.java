@@ -59,7 +59,7 @@ public class Ex4PesquisaInterna {
 		//Exibindo o resultado da pesquisa
 		//If para verificar se alguém respondeu a pesquisa
         if (tPessoas > 0) {
-            media= somaIdade / tPessoas;
+            media= Math.round(somaIdade/tPessoas);
             System.out.println("\n===== RESULTADOS =====");
             System.out.println("Número de desenvolvedores Backend: " + devBack);
             System.out.println("Número de Mulheres Cis e Trans Frontend: " + mFront);
