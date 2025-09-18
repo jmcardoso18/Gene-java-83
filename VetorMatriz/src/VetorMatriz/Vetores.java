@@ -34,7 +34,7 @@ public class Vetores{
 			numeros[indice] = leia.nextInt();
 		}
 		
-		Arrays.sort(numeros);
+		Arrays.sort(numeros);//ordenou por ordem crescente
 		
 		System.out.println("\nListagem - Vetor de Numeros");
 		
